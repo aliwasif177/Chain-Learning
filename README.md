@@ -1,5 +1,5 @@
 # Chain-Learning
-#A repository to keep track of self learning in blockchain domain
+Repository to keep track of self learning in blockchain domain
 # Day 1:
 
 # The Merge
