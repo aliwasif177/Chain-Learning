@@ -30,3 +30,16 @@ Ether burn occurs in every transaction on Ethereum. When users pay for their tra
 # Benefits OF Burning Ether
 Burning the base fee prevents various ways block producers could manipulate it otherwise. For example, if block producers received the base fee, they could include their own transactions for free and raise the base fee for everyone else. Alternatively, they could refund the base fee to some users off-chain, leading to a more opaque and complex transaction fee market.
 
+
+# Day 2:
+  
+# Accounts:
+An Ethereum account is an entity with an ether (ETH) balance that can send transactions on Ethereum. Accounts can be user-controlled or deployed as smart contracts.
+
+# Types Of Accounts:
+-Externally-owned account (EOA) – controlled by anyone with the private keys. 
+-Contract account – a smart contract deployed to the network, controlled by code. 
+
+# nonce:
+A counter that indicates the number of transactions sent from the account. This ensures transactions are only processed once. In a contract account, this number represents the number of contracts created by the account.
+
