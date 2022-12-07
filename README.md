@@ -40,6 +40,37 @@ An Ethereum account is an entity with an ether (ETH) balance that can send trans
 -Externally-owned account (EOA) – controlled by anyone with the private keys. 
 -Contract account – a smart contract deployed to the network, controlled by code. 
 
+# Constitution Of Account:
+-Nonce
+-Balnce
+-CodeHash
+-storageRoot
+
 # nonce:
-A counter that indicates the number of transactions sent from the account. This ensures transactions are only processed once. In a contract account, this number represents the number of contracts created by the account.
+A counter that indicates the number of transactions sent from the account. This ensures transactions are only processed once. In a contract account, this number represents the number of contracts created by the account.  
+
+# Balance:
+The number of wei owned by external account or contract account.  
+
+# CodeHash (code of an account):
+A deployed contract account composed of code fragments that runs on EVM. EVM store all these code fragments under the state database in thier respective hashes and later use these hashes for retrieval of that code chunks to perform some transactions on message call. It can not be changed. Even if you update your contract code then it will be a new transaction and old codehash resides there constantly. For externally owned accounts, the codeHash field is the hash of an empty string. 
+
+# storageRoot:
+Sometimes known as a storage hash. A 256-bit hash of the root node of a Merkle Patricia trie that encodes the storage contents of the account (a mapping between 256-bit integer values), encoded into the trie as a mapping from the Keccak 256-bit hash of the 256-bit integer keys to the RLP-encoded 256-bit integer values. This trie encodes the hash of the storage contents of this account, and is empty by default.  
+
+# ACCOUNT CREATION:
+
+
+# ECDSA: Elliptic Curve Signatures:
+Algotiyh used to recover public key from private key. ECDSA keys and signatures are shorter than in RSA for the same security level. A 256-bit ECDSA signature has the same security strength like 3072-bit RSA signature.
+
+# Public Key Generqation Using ECDSA:
+The ECDSA key-pair consists of:   
+-private key (integer): privKey.    
+-public key (EC point): pubKey = privKey * G.  
+    
+      
+The private key is generated as a random integer in the range [0...n-1]. The public key pubKey is a point on the elliptic curve, calculated by the EC point multiplication:   
+-pubKey = privKey * G (the private key, multiplied by the generator point G).
+The public key EC point {x, y} can be compressed to just one of the coordinates + 1 bit (parity). For the secp256k1 curve, the private key is 256-bit integer (32 bytes) and the compressed public key is 257-bit integer (~ 33 bytes).
 
