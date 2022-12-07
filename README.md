@@ -72,5 +72,34 @@ The ECDSA key-pair consists of:
       
 The private key is generated as a random integer in the range [0...n-1]. The public key pubKey is a point on the elliptic curve, calculated by the EC point multiplication:   
 -pubKey = privKey * G (the private key, multiplied by the generator point G).
-The public key EC point {x, y} can be compressed to just one of the coordinates + 1 bit (parity). For the secp256k1 curve, the private key is 256-bit integer (32 bytes) and the compressed public key is 257-bit integer (~ 33 bytes).
+The public key EC point {x, y} can be compressed to just one of the coordinates + 1 bit (parity). For the secp256k1 curve, the private key is 256-bit integer (32 bytes) and the compressed public key is 257-bit integer (~ 33 bytes).  
+
+# Keys in Proof Of Stake Ethereium:
+- Public key
+- Private key
+# Validator keys  => public and Private and both uses Boneh-Lyn-Shacham (BLS) signature scheme
+( To reach at consensus all validators needs to communicate with each other. Each validator msg aggregates across all other validators. And communication of msgs/transactions btw large number of validators result in more network consumption and slow transactions. So to make this aggregation of msgs rapid validatore keys have been introduces ). 
+# Withdrawl keys => public and Private and both uses Boneh-Lyn-Shacham (BLS) signature scheme
+ And now if these two new keys are introduces then for sure they also require some kind of key pair cryptography mechanism and for that purpose Etherium uses Boneh-Lyn-Shacham (BLS) signature scheme
+
+# Boneh-Lyn-Shacham (BLS) signature scheme:
+BLS enables a very efficient aggregation of signatures but also allows reverse engineering of aggregated individual validator keys and is ideal for managing actions between validators.  
+https://www.cryptologie.net/article/472/what-is-the-bls-signature-scheme/. 
+
+# Validator Key:
+same like others it exists in pair i.e public and private. 
+purpose is to serve on chain operations like validation of block or propsoing or attesting.  
+these keys are special and must be kept safe becausse it can disturp the whole chain. What if some thief got validator key of parrticipant who was actually a validator.  
+- Being a proposer and can sign two different beacon blocks for the same slot. 
+- Being an attester and signing an attestation that "surrounds" another one. 
+- Being an attester and signing two different attestations having the same target. 
+
+
+
+
+# Deposit Data:
+
+
+
+
 
