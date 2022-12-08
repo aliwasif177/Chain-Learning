@@ -94,6 +94,8 @@ these keys are special and must be kept safe becausse it can disturp the whole c
 - Being an attester and signing an attestation that "surrounds" another one. 
 - Being an attester and signing two different attestations having the same target. 
 
+- Day 3:
+
 # Transaction:
 transaction has 4 basic elements
 - Recipient
