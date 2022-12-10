@@ -145,7 +145,25 @@ response = {
   }
 }. 
 
-Where raw is the signed transaction in encoded form. And tx=== json.parse(responsse.raw). This way we can get signature to verify the sender i.e tx.hash===signature hash which will then be passed to eliptic curve to discover public key of sender for verification. 
+Where raw is the signed transaction in encoded form. And tx=== json.parse(responsse.raw). This way we can get signature to verify the sender i.e tx.hash===signature hash which will then be passed to eliptic curve to discover public key of sender for verification.   
+
+
+# Day 4:
+
+
+# EIPI Typed Transaction Enevelope:
+contain two main payload in transaction.  
+- Transaction type ( a number btw 0 to 0*7f for total 128 typess of transactions). 
+- Transaction payload ( arbitrary byte array of data based on selected transaction type btw 0 - 0*7f). 
+
+# Block:
+Blocks are bactches of transaction. when there are limited number of trabnsaction occurs on network. network make a collection/bactch of these transactions and constitute a block.  
+In chain all blocks are linked togather by keeping the hash of prevoius block and then produce combine hash of previous block own data and then pass this hash address to next block. 
+So in this way if one block data chhanges its hash will change and subsequently all blocks in chain will invalidate this change.  
+
+
+
+
 
 
 
