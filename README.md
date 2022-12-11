@@ -162,9 +162,18 @@ In chain all blocks are linked togather by keeping the hash of prevoius block an
 So in this way if one block data chhanges its hash will change and subsequently all blocks in chain will invalidate this change.    
 
 
-# Nodes:
+# Day 5:
 
-Machines that are running on Ethereum network that are responsible for verifying blocks and transactions and it coukd be attester, validator or proposer. These machines can be miner and other machines that participate in keeping network.
+# Nodes:
+Machines that are running on Ethereum network that are responsible for verifying blocks and transactions and it coukd be attester, validator or proposer. These machines can be miner and other machines that participate in keeping network. But after merge a node cannot execure on its own. It needs consensus client ( which staked coin ) to work with.  
+
+# Execution client:
+Refers to the nodes that were involved in POW in eth1 responsible for keeping track of new transactions updating database and evm state by connecting and aggregation to all other nodes acroos network.  
+
+# Consensus client:
+Refers to client/node which have stacked chain coins in order to propose the block/transaction passed on from execution client.  
+
+
 
 
 
