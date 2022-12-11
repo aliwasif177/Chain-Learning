@@ -159,9 +159,12 @@ contain two main payload in transaction.
 # Block:
 Blocks are bactches of transaction. when there are limited number of trabnsaction occurs on network. network make a collection/bactch of these transactions and constitute a block.  
 In chain all blocks are linked togather by keeping the hash of prevoius block and then produce combine hash of previous block own data and then pass this hash address to next block. 
-So in this way if one block data chhanges its hash will change and subsequently all blocks in chain will invalidate this change.  
+So in this way if one block data chhanges its hash will change and subsequently all blocks in chain will invalidate this change.    
 
 
+# Nodes:
+
+Machines that are running on Ethereum network that are responsible for verifying blocks and transactions and it coukd be attester, validator or proposer. These machines can be miner and other machines that participate in keeping network.
 
 
 
