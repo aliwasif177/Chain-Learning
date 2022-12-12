@@ -173,6 +173,18 @@ Refers to the nodes that were involved in POW in eth1 responsible for keeping tr
 # Consensus client:
 Refers to client/node which have stacked chain coins in order to propose the block/transaction passed on from execution client.  
 
+# Day 6:
+
+# Block time:
+In network when lrage number of transactions bundled up then it is time to make blocks and seperate them and then link to chain. So for tis validator needs to propose a block. In network after every 12 seconds they proposes a block and these 12 seconds are called slot. Sometime max nodes/machines might be offline and network can let go that slot empty because it corresponds to that offline validator.
+
+# Block size:
+Each block in network chain has a limited size of 15 million gas. But It can be expand or shrink based on requirments. At max block can hold transaction of 30 million gas (2x of initial limit). Accumulative gas of transactions should always be less than the limit.  
+If we have a block size of more than 30 million it will have extra large size then it will be difficult to validate this for low performant node and thus time taking and require more power consuption.  
+
+
+
+
 
 
 
