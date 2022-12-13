@@ -183,6 +183,30 @@ Each block in network chain has a limited size of 15 million gas. But It can be 
 If we have a block size of more than 30 million it will have extra large size then it will be difficult to validate this for low performant node and thus time taking and require more power consuption.  
 
 
+# Day 7:
+
+
+# Merkle tree:
+A bindary tree that keeps track of transaction and blocks in form of hashes. So, when a node tries to vareify transaction/block. it dont need to have complete state copy of bitcoin/etherium. tree stores hasghes of transactions and keep hashing the combination of all transaction while narrowing it down to one single transaction i.e leaf node. which pocess trasnsaction id.   
+
+Consider the following scenario: A, B, C, and D are four transactions, all executed on the same block. Each transaction is then hashed, leaving you with:   
+
+Hash A. 
+Hash B. 
+Hash C. 
+Hash D. 
+The hashes are paired together, resulting in:   
+
+Hash AB. 
+and. 
+
+Hash CD. 
+And therefore, your Merkle Root is formed by combining these two hashes: Hash ABCD.
+
+
+
+<img width="1214" alt="image" src="https://user-images.githubusercontent.com/60692401/207318359-a02acd35-79f3-466d-9b91-d82da38b9210.png">
+
 
 
 
