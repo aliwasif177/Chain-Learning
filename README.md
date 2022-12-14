@@ -227,6 +227,26 @@ Light nodes often fail to find peer data.
 - Stores everything kept in the full node and builds an archive of historical states. It is needed if you want to query something like an account balance at block #4,000,000, or simply and reliably test your own transactions set without mining them using tracing.  
 - Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.  
 
+# Dont trust, verify:
+if you run your machine as node in distributed ledger then you dont need to trust other nodes to verify your transactions. Since you are running ethererum client on your machine the you can verify the transaction on your own without trusting network.    
+
+# Slashing:
+
+
+# Frontburning:
+
+
+# Solo stacking:
+
+
+# Slashing risk:
+
+# Sharding:
+
+
+
+
+
 
 
 
