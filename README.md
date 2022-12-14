@@ -209,6 +209,26 @@ And therefore, your Merkle Root is formed by combining these two hashes: Hash AB
 
 
 
+# Day 8:
+
+
+# Syncronization in etherium:
+refers to syncing of state brought up by node into evem state. Syncing takes time depending on node and syncing strategy.
+
+# Full node:
+stores full blockchain data i.e evm state, blocks and trasactions along with thier data and hashes to prevoius blocks. fetch data on request and it may be pruned. All states can be derived from a full node ( even the old ones can be reconstyructed from the derived transactions). 
+
+# Light node:
+you can say they are derived from the full node. Unlike full node, they dont download the full block data. They download headers of block and we know from header data through encryption we can get all data. In case we want a full block data from light node then we can request a full node correspond to that light node this way we can fetch the whole data on request. this is faster than full nodes with same security.   
+Light node cannot participate in consensus to become validator/proposer/attester since these roles require the whole blockchain data for adding new blocks.  
+Light nodes often fail to find peer data.   
+
+# Archieve node:
+- Stores everything kept in the full node and builds an archive of historical states. It is needed if you want to query something like an account balance at block #4,000,000, or simply and reliably test your own transactions set without mining them using tracing.  
+- Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.  
+
+
+
 
 
 
