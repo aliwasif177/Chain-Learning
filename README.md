@@ -230,8 +230,14 @@ Light nodes often fail to find peer data.
 # Dont trust, verify:
 if you run your machine as node in distributed ledger then you dont need to trust other nodes to verify your transactions. Since you are running ethererum client on your machine the you can verify the transaction on your own without trusting network.    
 
-# Slashing:
 
+# Day 9:
+
+# Slashing:
+Slashing describes the process whereby other network participants forcibly eject an offending validator from the Beacon Chain while continuously draining their balance. In the most extreme cases, a slashed validator may lose their entire stake in the network.
+
+# Corelated slashing:
+In paladakot and eth2 chain maintain correlated slashing. This means that the penalty escalates based on the percentage of total validators that engage in the bad behavior at the same time. Let’s say that 10 out of 100 validators are down. In such a case, the slashing penalty is smaller per validator than if 25 out of 100 validators are down.
 
 # Frontburning:
 
