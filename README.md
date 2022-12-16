@@ -239,6 +239,10 @@ Slashing describes the process whereby other network participants forcibly eject
 # Corelated slashing:
 In paladakot and eth2 chain maintain correlated slashing. This means that the penalty escalates based on the percentage of total validators that engage in the bad behavior at the same time. Let’s say that 10 out of 100 validators are down. In such a case, the slashing penalty is smaller per validator than if 25 out of 100 validators are down.
 
+# Day 10
+
+
+
 # Frontburning:
 
 
