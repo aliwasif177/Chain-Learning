@@ -241,6 +241,40 @@ In paladakot and eth2 chain maintain correlated slashing. This means that the pe
 
 # Day 10
 
+Got nothing to note
+
+
+# Day 11:
+
+# Minimum requirements to set up a node:
+
+# Minimum requirements
+- CPU with 2+ cores
+- 8 GB RAM
+- 700GB free disk space
+- 10+ MBit/s bandwidth
+
+#  Recommended specifications
+
+- Fast CPU with 4+ cores
+- 16 GB+ RAM
+- Fast SSD with 1+TB
+- 25+ MBit/s bandwidth
+
+# List of execution clients:
+
+- Besu
+- Erigon (Doesn't provide a pre-built binary, has to be compiled)
+- Geth
+- Nethermind
+
+# List of consensus client:
+
+- Lighthouse
+- Lodestar (Doesn't provide a pre-built binary, only a Docker image or to be build from source)
+- Nimbus
+- Prysm
+- Teku
 
 
 # Frontburning:
@@ -252,18 +286,3 @@ In paladakot and eth2 chain maintain correlated slashing. This means that the pe
 # Slashing risk:
 
 # Sharding:
-
-
-# Day 11:
-
-
-
-
-
-
-
-
-
-
-
-
