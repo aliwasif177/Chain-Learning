@@ -254,8 +254,7 @@ In paladakot and eth2 chain maintain correlated slashing. This means that the pe
 # Sharding:
 
 
-
-
+# Day 11:
 
 
 
