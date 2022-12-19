@@ -276,11 +276,24 @@ Got nothing to note
 - Prysm
 - Teku
 
+# Day 12:
+
+# Client diversity:
+
+when nodes are setup. they can be setup on two layer i.e execution layer and consensus layer. But for executing these layers securoty is very important. A client shou;d have traffic of nodes upto 33%. Because if attackers attack on a client i.e geth prysm etc. it can corrupt thaty client. So to bare minimum lose we should have minority nodes on this client. So minimum slashing occurs on the nodes./ validators because slashing of validatotrs is propoptional to traffic on that client.
+
+Addressing client diversity requires more than individual users to choose minority clients 
+- it requires mining/validator pools and institutions like the major dapps and exchanges to switch clients too.   
 
 # Frontburning:
 
 
 # Solo stacking:
+In solo stacking a machine/node must run both client on his own machine after the merge. But before merger it was possible for node to run only the execution or consensus layer. 
+
+# Node servcies:
+
+includes moralis, alchemy and chainstack etc. 
 
 
 # Slashing risk:
