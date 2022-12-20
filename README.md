@@ -326,6 +326,44 @@ The validator handles attestations and block proposals. They enable a node to ac
 
 <img width="1920" alt="image" src="https://user-images.githubusercontent.com/60692401/208650933-590bf8f4-de75-4371-b159-ae2ebf89e39c.png">
 
+# Day 14:
+
+# Networks:
+- Mainnet ( POW or POS). 
+- Testnet (Proof Of Authority). 
+
+# Proof Of Authority:
+Only applicable in testnet for validating and mining transaction. 
+before meger POA choses some random miners to validate transactions and blocks on testnet. Since there is nothing to stake on testnet. So they stacke thier identity in order to be a validator. 
+
+# Which testnet should I user?
+# Sepolia testsnet for Apllication development (uses POS):
+for application developemnt i.e Dapp. you should use sepolia. Since it is new and performs rapid and efficient transactions over network.  
+
+- Closed validator set, controlled by client & testing teams. 
+- New testnet, less applications deployed than other testnets. 
+- Fast to sync and running a node requires minimal disk space.  
+
+# Goerli for tesing of validating and stacking (uses POS):
+when etherum protocols get upgrades then any user can use this testnet to test the new upgrades in protocols and then deopending on cost and effecieny can move to mainnet.   
+- Open validator set, stakers can test network upgrades. 
+- Large state, useful for testing complex smart contract interactions. 
+- Longer to sync and requires more storage to run a node.   
+
+# Consortium networks:
+The consensus process is controlled by a pre-defined set of nodes that are trusted. For example, a private network of known academic institutions that each govern a single node, and blocks are validated by a threshold of signatories within the network.  
+
+If a public Ethereum network is like the public internet, a consortium network is like a private intranet.  
+
+# Consensus: 
+consensus means that at least 66% of the nodes on the network agree on the global state of the network.  
+
+
+
+
+
+
+
 # Frontburning:
 
 
