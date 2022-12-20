@@ -285,15 +285,48 @@ when nodes are setup. they can be setup on two layer i.e execution layer and con
 Addressing client diversity requires more than individual users to choose minority clients 
 - it requires mining/validator pools and institutions like the major dapps and exchanges to switch clients too.   
 
-# Frontburning:
-
-
 # Solo stacking:
 In solo stacking a machine/node must run both client on his own machine after the merge. But before merger it was possible for node to run only the execution or consensus layer. 
 
 # Node servcies:
 
 includes moralis, alchemy and chainstack etc. 
+
+# Day 13:
+
+# Node architecture:
+
+consist of execution client and consensus client.  
+In POS execution client needs to work along consensus client to be a valida node.  
+Both clients are connected to thier respective netwoks in p2p network enabling both client to mange thier transaction pool and then communicate with each other though engine api.
+
+<img width="1920" alt="image" src="https://user-images.githubusercontent.com/60692401/208646337-ac646e74-0864-40ec-94a9-83f8b9d926c1.png">
+
+Consensus client use eninge api to pass bundle of transactions to execution client. When consensus clients needs to add a new block it will communicate with execution client and request for transaction responsing to that block.  
+
+# What doest execution client do?
+Execution client is responsible for transaction ghossips across its p2p network and updating evm but cannot play block ghossips as it is consensus client responsibilty. e.g when a trsaction execute executes from bynance the execution client will be first one to listen to that transaction and pass it across other nodes across p2p network.  
+The execution client is also responsible for re-executing transactions in new blocks to ensure they are valid.  
+
+In summary, the execution client is:
+
+- a user gateway to Ethereum
+- home to the Ethereum Virtual Machine, Ethereum's state and transaction pool.
+
+
+# What does consensus client do?
+Consensus client is responsible for keeping all the nodes synced with evm block states and perfoems forking algorith depending on user balances and longest chain to make sure that all blocks are connected to right chain.   
+The consensus client does not participate in attesting to or proposing blocks - this is done by a validator, an optional add-on to a consensus client. A consensus client without a validator only keeps up with the head of the chain, allowing the node to stay synced. This enables a user to transact with Ethereum using their execution client, confident that they are on the correct chain.
+
+# Validators:
+Validator comes from consensus client if node opertaor stake 32 eth on thier consensus client then they will be add validator on thier consensus client. 
+The validator handles attestations and block proposals. They enable a node to accrue rewards or lose ETH via penalties or slashing. Running the validator software also makes a node eligible to be selected to propose a new block.
+
+# Node components comparison:
+
+<img width="1920" alt="image" src="https://user-images.githubusercontent.com/60692401/208650933-590bf8f4-de75-4371-b159-ae2ebf89e39c.png">
+
+# Frontburning:
 
 
 # Slashing risk:
