@@ -359,8 +359,27 @@ If a public Ethereum network is like the public internet, a consortium network i
 consensus means that at least 66% of the nodes on the network agree on the global state of the network.  
 
 
+# Day 15:
 
+# Consensus mechanisms (3 types):
+- Proof of work. 
+- Proof of stake. 
+- proof of authority.   
 
+# Sybil attack:
+type of attack in which individual or group of individulas subverts insformation by creating multuple identitites of himself and gain large percentage of network. 
+
+# prevention of sybil attack:
+prevented by Sybil resistance mechanism i.e POW and POS. these mechanism does not allow user to create multiple identities by making user pay gas fee and spend lot of energy in ecnomic form. So if someone tries to attack he would get nothing but lose of his crypto coins.    
+
+# Chain selection rule:
+used to decide which is the correct one. bitcoin uses the lonest chain rule. 
+
+# Frok-choice algorithm:
+dertermine chain by weight of chains. weigt means the sum of validator votes weighted by thier stacked ether balance.  
+
+# Longest chain rule:
+means whichever the blockchain is longest will be accepted by nodes. In POW the longest chain is determined by total accumulative sum of chian's proof of work puzzle difficulty.    
 
 
 
