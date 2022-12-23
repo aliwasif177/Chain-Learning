@@ -1,6 +1,15 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 16:
+
+
+# Frontburning:
+
+# Slashing risk:
+
+# Sharding:  
+
 
 # Day 15:
 
@@ -23,12 +32,6 @@ dertermine chain by weight of chains. weigt means the sum of validator votes wei
 
 # Longest chain rule:
 means whichever the blockchain is longest will be accepted by nodes. In POW the longest chain is determined by total accumulative sum of chian's proof of work puzzle difficulty.    
-
-# Frontburning:
-
-# Slashing risk:
-
-# Sharding:  
 
 
 # Day 14:
