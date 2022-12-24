@@ -1,6 +1,13 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 17:
+
+# Casper:
+
+
+
+
 # Day 16:
 
 
