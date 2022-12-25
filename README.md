@@ -2,7 +2,7 @@
 Repository to keep track of self learning in blockchain domain. 
 
 
-# Day:
+# Day 18:
 
 
 # Day 17:
