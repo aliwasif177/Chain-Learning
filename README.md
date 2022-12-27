@@ -1,7 +1,17 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 20:
 
+# Energy usage of POW:
+ The main criticism faced by POW was energy consumed by miners machine to validate blocks. which was nearly equal to  about 70 TWh/yr (about the same as the Czech Republic - according to digiconomist on 18-July-2022).
+ 
+ # Etash:
+ Once used by etherium for mining. In this algorithm miner tries to find nonce input by brute force and as they able to find very close number to the given threshhold. They get rewards. This way resultant hash is smaller tan ciomputing difficulty.  
+ 
+ # DAGGER HASHIMOTO
+ 
+ 
 
 # Day 19:
 
