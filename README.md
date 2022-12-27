@@ -2,10 +2,16 @@
 Repository to keep track of self learning in blockchain domain. 
 
 
-# Day 18:
 
+# Day 19:
+
+missed
+
+# Day 18:
+Noting to note
 
 # Day 17:
+Noting to note
 
 # Casper:
 
@@ -13,7 +19,7 @@ Repository to keep track of self learning in blockchain domain.
 
 
 # Day 16:
-
+Noting to note
 
 # Frontburning:
 
