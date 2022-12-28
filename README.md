@@ -1,6 +1,51 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+
+# Day 21:
+
+# How to be validator in POS:
+For becoming a validaor a node needs to run three layers of software. 
+- Execution Client
+- Consensus Client
+- Validator. 
+
+And node must stake 32 eth in seposit contract. After that it will be added to the validator queue list which is miantained to limit number of validators. Once activated. You become validarotthen as a validator you will recieve the block from peer network. Then validator will reexecute all transactions in block and verifies block signature and then cast a vote in favour of that block which is known as attestation and over netwok.   
+
+# Finality in blockchain:
+Finality is when a transaction is part of block which cannot be changes without burning a significant amount of eth. 
+
+# Epoch:
+In POS we have slots and slot contains 12 seconds in which a validator is chosen radomly and block has been moved forward for attestaion and linking in chain and epoch is equal to 32 slots. 
+
+- 1epoch = 32 slots = 12*32 = 384.   
+
+# Checkpoint:
+checkpoint refers to first block in every epoch. Validators vote for the pair of checkpoint blocks which are considered to be valid. of most validators favour in pair of checkpoint block pairs then this become the target checkpoin blocks and these become justified. NOw this checkpoint target become the finalized block and it cannot be reverted. To revert it one must burn atleat 1/3rd of total eth staked on ethereum chain and if attackers do this then by rule we need two 3rd of total validators which cannot be done. 
+And if the chain fails to finalize a block with more than 4 epochs then in In these attacks blockchain will simply bleed away all the staked ethereum of nodes voting against the majority. 
+
+# Crypto ecomnomic security:
+Once the node becomes a validator. He needs a good hardware and staked eth then he will validate blocks. when a validator validates block then its stake will increase on every validation.
+
+# Chances of slasing of validators in POS:
+If validaor is not validating when required and it happens often then chain sniff it as cognative attack and penalty will be thrown because attackers can attack this way. this penality is in form of slashing. Slashing of eth depends on how many validators are being slashed. its compound effect is huge but of you are single node on your own then it will be very minimal almost 1% of toatl eth staked by that node or 100% if it is compound slashing of multiple validators.  
+
+# Reasons of slashing of validaors in POS:
+Primarily there can be 2 main reasons of slashing. 
+# 1 equivocating:
+propsing multiple blocks in single slot. 
+- Submitting contradictory attestaions. 
+
+# Penalities Order:
+
+- Imediate penality on day 1 0.5 eth. 
+- corelated penality that could be upto 100%. 
+- kicked out of network. 
+
+# Fork choice:
+In chain there is only one block at head of chain. So when a new block is proposed, validated and attested and when it is going to be attached it can see multiple chain i.e heads of chain. Now this block will decide which is the wrong or right turn .In these conditions consensus client perform an algorithm known as LMD_GHOST to verify the correct fork. basically kt verifies fork by the weigtage of attestion in hostory for respective fork.  
+
+
 # Day 20:
 
 # Energy usage of POW:
