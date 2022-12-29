@@ -2,6 +2,29 @@
 Repository to keep track of self learning in blockchain domain. 
 
 
+# Day 22:
+
+# PROOF-OF-STAKE AND SECURITY:
+
+In POS when attacker wants to attack he needs 51% of total staked and lets say if he get this 51% successfully and make the fork of their own choice by accumaltive weightate sum of attestaion on cannonical chain. But in POS gives privilages to validators. If an honest validator sniff something wrong he can vote in favour of minority/short chain and encourage other app and pools to do. they can also forcibly remove attacker from network. This way POS is more secure than POW even the attacker gets 51% of staked eth.  
+
+# Selection of validator node:
+it is based on main factors i.e block hash, node wealth and staked eth by that node. 
+there are two main algorithms to determine the validator. 
+- Randomized Block Selection
+- Coin age selection. 
+
+# Randomized Block Selection:
+Validators for forging are selected on base of the combination of lower hash value and staked eth by that node. 
+
+# Coin age selection:
+validaors for forging are selected on basis of the duration of thier stacked eth and amount of stacked eth. This algorith work by mathematical equation.  
+
+forger = number of days coins have been stacked by that validator * amount of coins stacked by that validator.  
+
+Once it has forged a block then its days (coin age) will be reset to zero this way all validators gets thier turn to be a forger.  This reset prohints the large validators with old age and good amount to dominate the chain. 
+
+
 # Day 21:
 
 # How to be validator in POS:
