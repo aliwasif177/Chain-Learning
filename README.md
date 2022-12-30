@@ -2,7 +2,7 @@
 Repository to keep track of self learning in blockchain domain. 
 
 
-# Day 13:
+# Day 23:
 
 # What is Gasper:
 Gasper is combination of Casper Friendly Finality Gadget (Casper-FFG) and fork choice algorith LMD-Ghost. Togather this combination form the consensus mechanism securing Proof Of Stake. Casper is mechanism that upgrades finalized block to the chain so that incoming blocks may decide on which they should go based on accumulative weighate of attested blocks. 
@@ -25,6 +25,13 @@ Finality requires a two-thirds agreement that a block is canonical, an attacker 
 
 - Owning or manipulating two-thirds of the total staked ether.  
 - Destroying at least one-third of the total staked ether.  
+
+# Plausible liveness:
+This is the condition that as long as two-thirds of the total staked ether is voting honestly and following the protocol, the chain will be able to finalize irrespective of any other activity (such as attacks, latency issues, or slashings).
+
+# Inactivity Leak:
+This mechanism activates when the chain has failed to finalize for more than four epochs. The validators that are not actively attesting to the majority chain have their stake gradually drained away until the majority regains two-thirds of the total stake, ensuring that liveness failures are only temporary.  
+
 
 # Day 22:
 
