@@ -2,6 +2,30 @@
 Repository to keep track of self learning in blockchain domain. 
 
 
+# Day 13:
+
+# What is Gasper:
+Gasper is combination of Casper Friendly Finality Gadget (Casper-FFG) and fork choice algorith LMD-Ghost. Togather this combination form the consensus mechanism securing Proof Of Stake. Casper is mechanism that upgrades finalized block to the chain so that incoming blocks may decide on which they should go based on accumulative weighate of attested blocks. 
+
+# Role Of Gasper:
+- Sits on top of POS where nodes stake thier eth. Basically it is the holder of thier eth as a security and it can burn destroy thier eth in case of dishonesty and laziness.  
+- Responsible for entrance of new blocks in chain. 
+- Responsible for the fork choice algortihm i.e in case of multiple chains/branches where should a block needs to be attached. 
+
+# Finality:
+Property of block which means a block cannot be reverted unless a critical consensus faliur or 1/3rd of total staked ether destroyed by attacker.  
+
+# How a block is finalized:
+Block is finalized in two steps.  
+- 2/3rd of the total staked ether must have voted in fvour of that block to get attached in cannonical chain. This conditions upgrade block to justified block.   
+- When another block is justified on top of this block then it will become the finalized block. It cannot be changed by attacker unless he spends millions of ether i.e billions of usd. 
+
+# Requirments of finality:
+Finality requires a two-thirds agreement that a block is canonical, an attacker cannot possibly create an alternative finalized chain without:
+
+- Owning or manipulating two-thirds of the total staked ether.  
+- Destroying at least one-third of the total staked ether.  
+
 # Day 22:
 
 # PROOF-OF-STAKE AND SECURITY:
