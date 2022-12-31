@@ -1,6 +1,12 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 24:
+
+# Weak Subjectivity:
+Inherenet of POS in blockchain to help validators select correct chain in case of multiple legit forks.  
+
+
 
 # Day 23:
 
