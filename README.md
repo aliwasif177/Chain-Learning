@@ -1,6 +1,12 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 25:
+
+# Aggregator in attestation:
+The aggregator collects all the attestations it hears about over the gossip network that have equivalent data to its own. The sender of each matching attestation is recorded in the aggregation_bits.  
+
+
 # Day 24:
 
 # Weak Subjectivity:
