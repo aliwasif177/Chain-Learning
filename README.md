@@ -1,6 +1,10 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 26:
+
+
+
 # Day 25:
 
 # Aggregator in attestation:
