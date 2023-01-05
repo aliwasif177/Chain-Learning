@@ -1,6 +1,11 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 28:
+
+# Finality delay:
+A finality delay attack prevents the network from reaching the necessary conditions finalizing sections of the chain. Without finality, it is hard to trust financial applications built on top of Ethereum. The aim of a finality delay attack is likely simply to disrupt Ethereum rather than to directly profit, unless the attacker has some strategic short position(s).
+
 # Day 27:
 
 # Double finality:
