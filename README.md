@@ -3,6 +3,8 @@ Repository to keep track of self learning in blockchain domain.
 
 # Day 27:
 
+# Double finality:
+Double finality is the unlikely but severe condition where two forks are able to finalize simultaneously, creating a permanent schism in the chain. This is theoretically possible for an attacker willing to risk 34% of the total staked ether. The community would be forced to coordinate off-chain and come to an agreement about which chain to follow, which would require strength in the social layer.
 
 # Day 26:
 
