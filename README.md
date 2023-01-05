@@ -6,6 +6,9 @@ Repository to keep track of self learning in blockchain domain.
 
 # Day 26:
 
+# Reorg:
+A “reorg” is a reshuffling of blocks into a new order, perhaps with some addition or subtraction of blocks in the canonical chain. A malicious reorg might ensure specific blocks are included or excluded, allowing double-spending or value extraction by front-running and back-running transactions (MEV). Re-orgs could also be used to prevent certain transactions from being included in the canonical chain - a form of censorship. The most extreme form of reorg is “finality reversion” which removes or replaces blocks that have previously been finalized. This is only possible if more than ⅓ of the total staked ether is destroyed by the attacker - this guarantee is known as “economic finality” - more on this later.   
+
 # Day 25:
 
 # Aggregator in attestation:
