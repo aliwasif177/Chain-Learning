@@ -2,7 +2,6 @@
 Repository to keep track of self learning in blockchain domain. 
 
 # Day 29:
-
 Got nothing to note
 
 # Day 28:
