@@ -1,6 +1,10 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 29:
+
+
+
 # Day 28:
 
 # Finality delay:
