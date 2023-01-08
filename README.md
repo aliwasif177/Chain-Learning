@@ -1,6 +1,12 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+# Day 31:
+Got nothing to note
+
+# Day 30:
+Day missed :(
+
 # Day 29:
 Got nothing to note
 
