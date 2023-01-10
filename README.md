@@ -1,6 +1,18 @@
 # Chain-Learning
 Repository to keep track of self learning in blockchain domain. 
 
+
+
+# Day 33:
+
+# Smart contracts:
+Smart contracts are the executable programs that run on the Ethereum blockchain.Smart contracts are written using specific programming languages that compile to EVM bytecode (low-level machine instructions called opcodes).  
+
+# Day 32:
+
+# EVM:
+The Ethereum Virtual Machine (EVM) is the runtime environment for smart contracts in Ethereum. All smart contracts and state changes on the Ethereum blockchain are executed by transactions. The EVM handles all of the transaction processing on the Ethereum network.  
+
 # Day 31:
 Got nothing to note
 
